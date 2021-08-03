@@ -1,0 +1,5 @@
+.place_text-position_left {
+  grid-template-areas:
+    "title image"
+    "description image";
+}

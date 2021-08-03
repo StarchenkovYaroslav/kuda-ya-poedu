@@ -1,0 +1,6 @@
+.place__description {
+  align-self: end;
+  grid-area: description;
+  max-width: 358px;
+  padding: 0 0 88px 72px;
+}
