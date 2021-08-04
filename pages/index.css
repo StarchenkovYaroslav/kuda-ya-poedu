@@ -16,7 +16,13 @@
 @import url(../blocks/header/__menu-item/healder__menu-item.css);
 @import url(../blocks/header/__menu-link/header__menu-link.css);
 
+@import url(../blocks/headlines/headlines.css);
+@import url(../blocks/headlines/__subtitle/headlines__subtitle.css);
+@import url(../blocks/headlines/__title/hedlines__title.css);
+
 @import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__headlines/intro__headlines.css);
+@import url(../blocks/intro/__image/intro__image.css);
 
 @import url(../blocks/page/page.css);
 
@@ -26,5 +32,7 @@
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 @import url(../blocks/place/__title/place__title.css);
+
+@import url(../blocks/places/places.css);
 
 @import url(../blocks/root/root.css);
