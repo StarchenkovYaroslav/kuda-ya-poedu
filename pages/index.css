@@ -2,6 +2,9 @@
 
 @import url(../fonts/fonts.css);
 
+@import url(../blocks/authors/authors.css);
+@import url(../blocks/authors/__headlines/authors__headlines.css);
+
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/cards/__item/cards__item.css);
 @import url(../blocks/cards/__item-title/cards__item-title.css);
@@ -16,7 +19,6 @@
 @import url(../blocks/header/__menu-item/healder__menu-item.css);
 @import url(../blocks/header/__menu-link/header__menu-link.css);
 
-@import url(../blocks/headlines/headlines.css);
 @import url(../blocks/headlines/__subtitle/headlines__subtitle.css);
 @import url(../blocks/headlines/__title/hedlines__title.css);
 

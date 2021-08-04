@@ -1,5 +1,4 @@
 .cards {
   display: flex;
   justify-content: space-between;
-  padding: 0 68px;
 }
