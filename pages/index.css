@@ -5,6 +5,8 @@
 @import url(../blocks/authors/authors.css);
 @import url(../blocks/authors/__headlines/authors__headlines.css);
 
+@import url(../blocks/burger/burger.css);
+
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/cards/__item/cards__item.css);
 @import url(../blocks/cards/__item-title/cards__item-title.css);
