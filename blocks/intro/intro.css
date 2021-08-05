@@ -1,5 +1,6 @@
 .intro {
   align-items: center;
   display: flex;
-  padding: 81px 72px 0;
+  justify-content: space-between;
+  padding: 81px 157px 0 72px;
 }
