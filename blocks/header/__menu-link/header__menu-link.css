@@ -7,6 +7,12 @@
   transition: opacity .2s;
 }
 
+@media screen and (max-width: 767px) {
+  .header__menu-link {
+    font-size: 20px;
+  }
+}
+
 .header__menu-link:hover {
   cursor: pointer;
   opacity: 0.7;

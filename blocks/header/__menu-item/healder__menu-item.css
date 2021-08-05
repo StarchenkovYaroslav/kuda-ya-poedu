@@ -1,11 +1,10 @@
 .healder__menu-item {
-  font-size: 14px;
   margin-right: 34px;
 }
 
 @media screen and (max-width: 767px) {
   .healder__menu-item {
-    margin: 0 0 34px;
+    margin: 0 0 40px;
   }
 }
 
