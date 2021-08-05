@@ -4,3 +4,11 @@
   padding: 0;
   list-style: none;
 }
+
+@media screen and (max-width: 767px) {
+  .header__menu {
+    flex-direction: column;
+    padding: 60px 0;
+    align-items: center;
+  }
+}

@@ -1,0 +1,28 @@
+.burger__span {
+  display: block;
+  height: 3px;
+  width: 100%;
+  background-color: #000;
+  margin-bottom: 3px;
+  transition: .5s all;
+}
+
+.burger__span:last-child {
+  margin: 0;
+}
+
+.burger_active .burger__span {
+  margin-bottom: -3px;
+}
+
+.burger_active .burger__span:nth-child(1) {
+  transform: translateY(3px) rotate(-45deg);
+}
+
+.burger_active .burger__span:nth-child(2) {
+  display: none;
+}
+
+.burger_active .burger__span:nth-child(3) {
+  transform: translateY(3px) rotate(45deg);
+}

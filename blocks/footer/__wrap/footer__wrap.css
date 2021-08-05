@@ -5,3 +5,16 @@
   justify-content: center;
   min-height: 620px;
 }
+
+
+@media screen and (max-width: 767px) {
+  .footer__wrap {
+    min-height: 320px;
+  }
+}
+
+@media screen and (max-width: 424px)  {
+  .footer__wrap {
+    min-height: 120px;
+  }
+}
