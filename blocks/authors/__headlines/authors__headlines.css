@@ -1,3 +1,16 @@
 .authors__headlines {
   margin: 0 0 116px;
 }
+
+@media (max-width: 1023px) {
+  .authors__headlines {
+    margin-bottom: 76px;
+  }
+}
+
+@media (max-width: 767px) {
+  .authors__headlines {
+    margin-bottom: 60px;
+  }
+}
+

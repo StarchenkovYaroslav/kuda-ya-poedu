@@ -1,3 +1,26 @@
 .authors {
   padding: 133px 68px 0;
 }
+
+@media (max-width: 1279px) {
+  .authors {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .authors {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 76px;
+  }
+}
+
+@media (max-width: 767px) {
+  .authors {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 60px;
+  }
+}

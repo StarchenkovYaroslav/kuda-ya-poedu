@@ -1,3 +1,9 @@
 .headlines_width_short {
   max-width: 450px;
 }
+
+@media (max-width: 767px) {
+  .headlines_width_short {
+    max-width: 100%;
+  }
+}
