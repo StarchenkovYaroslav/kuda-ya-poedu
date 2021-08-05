@@ -20,6 +20,8 @@
 @import url(../blocks/header/__menu-item/healder__menu-item.css);
 @import url(../blocks/header/__menu-link/header__menu-link.css);
 
+@import url(../blocks/headlines/headlines.css);
+@import url(../blocks/headlines/_width/_short/headlines_width_short.css);
 @import url(../blocks/headlines/__subtitle/headlines__subtitle.css);
 @import url(../blocks/headlines/__title/hedlines__title.css);
 
