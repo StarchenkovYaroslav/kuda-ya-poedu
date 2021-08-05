@@ -1,0 +1,7 @@
+.footer__wrap {
+  align-items: center;
+  background-color: #fecda7;
+  display: flex;
+  justify-content: center;
+  min-height: 620px;
+}
