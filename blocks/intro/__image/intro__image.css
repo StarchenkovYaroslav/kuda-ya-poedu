@@ -1,4 +1,18 @@
 .intro__image {
   display: block;
+  object-fit: cover;
+  object-position: top;
   width: 356px;
+}
+
+@media (max-width: 1023px) {
+  .intro__image {
+    width: 180px;
+  }
+}
+
+@media (max-width: 767px) {
+  .intro__image {
+    display: none;
+  }
 }

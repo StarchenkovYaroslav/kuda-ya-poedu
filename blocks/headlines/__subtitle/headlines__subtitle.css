@@ -5,3 +5,15 @@
   line-height: 1.3;
   margin: 0;
 }
+
+@media (max-width: 767px) {
+  .headlines__subtitle {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 424px) {
+  .headlines__subtitle {
+    font-size: 22px;
+  }
+}
