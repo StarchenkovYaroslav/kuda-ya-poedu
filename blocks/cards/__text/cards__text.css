@@ -1,7 +1,20 @@
 .cards__text {
   font-size: 14px;
   line-height: 1.5;
+  letter-spacing: -.55px;
   font-weight: 400;
   margin: 0;
   margin-top: 22px;
+}
+
+@media screen and (max-width: 1023px) {
+  .cards__text {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .cards__text {
+    font-size: 12px;
+  }
 }

@@ -2,9 +2,25 @@
   max-width: 244px;
 }
 
-
 @media screen and (max-width: 1279px) {
   .cards__item {
-    max-width: 162px;
+    max-width: 188px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cards__item {
+    max-width: 244px;
+    margin-right: 100px;
+    margin-top: 50px;
+  }
+  .cards__item:nth-child(2n+2) {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cards__item {
+    margin-right: 0;
   }
 }

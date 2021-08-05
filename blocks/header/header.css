@@ -1,11 +1,23 @@
 .header {
-  padding: 48px 68px 0;
+  position: fixed;
+  width: 100%;
+  max-width: 1280px;
+  background-color: rgba(255, 255, 255, .9);
+  padding: 48px 0;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1023px) {
+  .header {
+    padding: 24px 0;
+  }
 }
 
 @media screen and (max-width: 767px) {
   .header {
     position: fixed;
     height: 100vh;
+    background-color: rgba(255, 255, 255, .0);
   }
 }
 
