@@ -1,6 +1,7 @@
 .header__nav {
   display: flex;
   justify-content: space-between;
+  padding: 0 68px;
 }
 
 @media screen and (max-width: 767px) {
@@ -15,9 +16,5 @@
     align-items: center;
     background-color: rgba(255, 255, 255, .8);
     transition: .6s all;
-  }
-
-  .header__nav_active {
-    left: 0;
   }
 }
