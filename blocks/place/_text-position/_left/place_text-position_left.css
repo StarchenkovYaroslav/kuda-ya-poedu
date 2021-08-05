@@ -3,3 +3,14 @@
     "title image"
     "description image";
 }
+
+@media (max-width: 767px) {
+  .place_text-position_left {
+    background-color: #fff;
+    grid-template-areas:
+      "title"
+      "image"
+      "description";
+    grid-template-columns: 1fr;
+  }
+}
