@@ -30,6 +30,7 @@
 @import url(../blocks/headlines/__title/hedlines__title.css);
 
 @import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__headlines/intro__headlines.css);
 @import url(../blocks/intro/__image/intro__image.css);
 
 @import url(../blocks/page/page.css);
