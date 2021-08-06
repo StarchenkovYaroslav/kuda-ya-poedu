@@ -4,6 +4,12 @@
   padding: 0 68px;
 }
 
+@media screen and (max-width: 1023px) {
+  .header__nav {
+    padding: 0 24px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .header__nav {
     position: fixed;
@@ -16,5 +22,11 @@
     align-items: center;
     background-color: rgba(255, 255, 255, .8);
     transition: .6s all;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .header__nav {
+    width: 65%;
   }
 }
