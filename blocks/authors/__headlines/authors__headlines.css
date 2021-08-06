@@ -4,13 +4,13 @@
 
 @media (max-width: 1023px) {
   .authors__headlines {
-    margin-bottom: 38px;
+    margin-bottom: 30px;
   }
 }
 
 @media (max-width: 767px) {
   .authors__headlines {
-    margin-bottom: 30px;
+    margin-bottom: 32px;
   }
 }
 
