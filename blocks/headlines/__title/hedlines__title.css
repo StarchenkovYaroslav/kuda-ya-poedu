@@ -7,7 +7,7 @@
   text-transform: uppercase;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1023px) {
   .headlines__title {
     margin-bottom: 15px;
   }
