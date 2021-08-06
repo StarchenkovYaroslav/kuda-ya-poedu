@@ -1,3 +1,25 @@
 .cards {
   display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 58px;
+}
+
+@media screen and (max-width: 1279px) {
+  .cards {
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px 0;
+    justify-items: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
 }
