@@ -23,3 +23,9 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media screen and (max-width: 424px) {
+  .cards {
+    gap: 34px;
+  }
+}
