@@ -1,4 +1,4 @@
-# Куда я поеду. Соревнование по вёрсте. Яндекс Практикум
+# Куда я поеду. Соревнование по вёрстке. Яндекс Практикум.
 [посмотреть на github pages](https://starchenkovyaroslav.github.io/kuda-ya-poedu/index.html)
 ---
 
