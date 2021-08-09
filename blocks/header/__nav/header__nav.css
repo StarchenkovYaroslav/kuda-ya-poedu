@@ -22,6 +22,6 @@
 
 @media screen and (max-width: 424px) {
   .header__nav {
-    /* width: 65%; */
+    width: 65%;
   }
 }
