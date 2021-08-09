@@ -1,17 +1,17 @@
 window.addEventListener('DOMContentLoaded', () => {
-  const menu = document.querySelector('.header__nav'),
-  menuItem = document.querySelectorAll('.healder__menu-item'),
+  const header = document.querySelector('.header'),
+  menuItems = document.querySelectorAll('.healder__menu-item'),
   hamburger = document.querySelector('.burger');
 
   hamburger.addEventListener('click', () => {
       hamburger.classList.toggle('burger_active');
-      menu.classList.toggle('header__nav_active');
+      header.classList.toggle('header_active');
   });
 
-  menuItem.forEach(item => {
+  menuItems.forEach(item => {
       item.addEventListener('click', () => {
           hamburger.classList.toggle('burger_active');
-          menu.classList.toggle('header__nav_active');
+          header.classList.toggle('header__nav_active');
       })
   })
 })
