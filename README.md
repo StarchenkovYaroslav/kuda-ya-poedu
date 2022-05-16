@@ -9,3 +9,7 @@
 ## Ссылка на сайт
 
 https://starchenkovyaroslav.github.io/kuda-ya-poedu/index.html
+
+## Статус проекта
+
+Завершен
